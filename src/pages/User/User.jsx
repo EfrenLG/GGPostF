@@ -218,7 +218,7 @@ const User = () => {
                     <div className="post-image-wrapper">
                         <input type="file" id="post-pic" accept="image/*" onChange={(e) => setSelectedFile(e.target.files[0])} />
                         <label htmlFor="post-pic" className="post-image-label">
-                            <img src="" alt="Imagen del post" id="imagePost" className="post-image" />
+                            <img src="../images/no-image.webp" alt="Imagen del post" id="imagePost" className="post-image" />
                         </label>
                     </div>
 
