@@ -35,7 +35,7 @@ const PostsCard = ({ posts }) => {
     useEffect(() => {
         if (!selectedPost) return;
 
-        const ws = new WebSocket('wss://ggpostb.onrender.com');
+        const ws = new WebSocket('wss://ggpostb-yql0.onrender.com');
         wsRef.current = ws;
 
         ws.onopen = () => {
