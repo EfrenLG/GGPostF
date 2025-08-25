@@ -1,7 +1,7 @@
 // Axios
 import axios from 'axios';
 
-const URL_API = 'https://ggpostb-yql0.onrender.com';
+const URL_API = 'https://ggpostb.onrender.com';
 
 const api = axios.create({
 
